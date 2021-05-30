@@ -1,0 +1,26 @@
+// creamos ambiente virtual
+virtualenv env
+
+// levantamos maquina virtual
+source env/bin/activate
+
+// desactivamos maquina virtual
+deactivate
+
+// comando para instalar el microframework y las librerias que vamos a usar con mysql
+pip3 install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy pymysql
+
+
+//levantamos el servicio
+python src/app.py
+
+
+
+
+
+
+//referenia
+https://github.com/FaztWeb/flask-mysql-restapi-sqlalchemy/blob/master/src/app.py
+
+
+https://www.youtube.com/watch?v=MvVqjQqSdM4
